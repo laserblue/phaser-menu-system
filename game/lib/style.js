@@ -12,7 +12,7 @@ var style;
       base: {
         font: '30pt TheMinion',
         align: 'left',
-        srokeThickness: 4
+        strokeThickness: 4
       },
       default: {
         fill: defaultColor,
