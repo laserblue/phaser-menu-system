@@ -6,9 +6,9 @@ Splash.prototype = {
     game.load.script('style', 'lib/style.js');
     game.load.script('mixins', 'lib/mixins.js');
     game.load.script('WebFont', 'vendor/webfontloader.js');
-    game.load.script('gamemenu','states/GameMenu.js');
+    game.load.script('gamemenu','states/gameMenu.js');
     game.load.script('game', 'states/Game.js');
-    game.load.script('gameover','states/GameOver.js');
+    game.load.script('gameover','states/gameOver.js');
     game.load.script('Credits', 'states/credits.js');
     game.load.script('options', 'states/options.js');
   },
