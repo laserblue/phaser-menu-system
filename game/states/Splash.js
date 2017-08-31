@@ -10,7 +10,7 @@ Splash.prototype = {
     game.load.script('game', 'states/Game.js');
     game.load.script('gameover','states/gameOver.js');
     game.load.script('Credits', 'states/credits.js');
-    game.load.script('options', 'states/options.js');
+    game.load.script('Options', 'states/options.js');
   },
 
   loadBgm: function () {
@@ -42,7 +42,7 @@ Splash.prototype = {
   },
 
   preload: function () {
-    // game.add.sprite(0, 0, 'stars');
+    game.add.sprite(0, 0, 'stars');
     game.add.existing(this.logo).scale.setTo(0.5);
     game.add.existing(this.loadingBar);
     game.add.existing(this.status);
