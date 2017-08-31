@@ -1,6 +1,6 @@
 // Global Variables
 var
-  game = new Phaser.Game(800, 600, Phaser.AUTO, 'game'),
+  game = new Phaser.Game(800, 600, Phaser.CANVAS, 'game'),
   Main = function () {},
   gameOptions = {
     playSound: true,
