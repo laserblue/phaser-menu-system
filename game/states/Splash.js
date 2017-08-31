@@ -42,7 +42,7 @@ Splash.prototype = {
   },
 
   preload: function () {
-    game.add.sprite(0, 0, 'stars');
+    // game.add.sprite(0, 0, 'stars');
     game.add.existing(this.logo).scale.setTo(0.5);
     game.add.existing(this.loadingBar);
     game.add.existing(this.status);
