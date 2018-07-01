@@ -213,7 +213,7 @@ Anyway, this is what I came up with:
 
 ```javascript
   addMenuOption: function(text, callback) {
-    var optionStyle = { font: '30pt TheMinion', fill: 'white', align: 'left', stroke: 'rgba(0,0,0,0)', srokeThickness: 4};
+    var optionStyle = { font: '30pt TheMinion', fill: 'white', align: 'left', stroke: 'rgba(0,0,0,0)', strokeThickness: 4};
     var txt = game.add.text(30, (this.optionCount * 80) + 200, text, optionStyle);
     var onOver = function (target) {
       target.fill = "#FEFFD5";
@@ -293,7 +293,7 @@ First I tried this:
         stroke: 'rgba(0,0,0,0)'
         font: '30pt TheMinion',
         align: 'left',
-        srokeThickness: 4
+        strokeThickness: 4
       },
       hover: {
         fill: highlightColor,
